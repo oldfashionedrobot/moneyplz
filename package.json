@@ -1,0 +1,5 @@
+{
+  "name": "track",
+  "description": "track monorepo",
+  "workspaces": ["./packages/track-client", "./packages/track-server"]
+}
