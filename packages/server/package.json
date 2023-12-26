@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "@track/server",
   "version": "1.0.0",
   "description": "server",
   "main": "dist/index.js",
