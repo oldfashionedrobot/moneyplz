@@ -2,14 +2,14 @@
   "name": "track",
   "description": "track monorepo",
   "workspaces": [
-    "./packages/track-client",
-    "./packages/track-server"
+    "./packages/client",
+    "./packages/server"
   ],
   "scripts": {
     "start": "concurrently -k \"npm:start:*\"",
-    "start:server": "npm run start -w track-server",
-    "start:client": "npm run start -w track-client",
-    "build": "npm run build -w track-server && npm run build -w track-client"
+    "start:server": "npm run start -w server",
+    "start:client": "npm run start -w client",
+    "build": "npm run build -w server && npm run build -w client"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.16.0",
