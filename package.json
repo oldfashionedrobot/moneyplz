@@ -5,6 +5,11 @@
     "./packages/track-client",
     "./packages/track-server"
   ],
+  "scripts": {
+    "server": "npm run start -w track-server",
+    "client": "npm run start -w track-client",
+    "build": "npm run build -w track-server && npm run build -w track-client"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.16.0",
     "@typescript-eslint/parser": "^6.16.0",
